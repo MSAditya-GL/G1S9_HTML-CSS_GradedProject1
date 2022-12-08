@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgb(75, 75, 75);
+    font-size: 40px;
+}
+
+.form {
+    width: 85%;
+    height: 525px;
+    margin: 30px 20px 20px 20px;
+    box-shadow: 0px 0px 16px 8px rgb(0, 0, 0, 30%);
+    border-radius: 5px;
+    overflow-y: scroll;
+    padding-left: 20px;
+}
+
+.form img {
+    float: right;
+    position: sticky;
+    height: 525px;
+    width: 45%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: 0;
+    top: 0;
+}
+
+hr {
+    margin-left: 10px;
+}
+
+.contact input,
+.contact label {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.contact select {
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: rgb(238, 235, 235);
+    justify-items: center;
+    height: 30px;
+    padding: 0;
+}
+
+input:focus {
+    border-color: white;
+}
+
+.contact {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.form p {
+    font-weight: bold;
+    font-size: larger;
+    width: 45%;
+}
+
+h5 {
+    width: 45%;
+}
+
+button {
+    font-size: large;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+#first {
+    margin-left: 23%;
+}
+
+.test_details {
+    width: 50%;
+    margin: 10px 0px 0px 10px;
+}
+
+.test_details input {
+    background-color: white;
+    color: black;
+    width: 15px;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.test_details label {
+    line-height: 30px;
+    vertical-align: middle;
+    word-wrap: break-word;
+    text-align: right;
+    font-size: 18px;
+}
+
+@media only screen and (min-width:500px) {
+
+    .contact input,
+    .contact label {
+        height: 30px;
+        font-size: 18px;
+
+    }
+
+    .form p {
+        width: 50%;
+        font-size: x-large;
+    }
+
+    h5 {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    #first {
+        margin-left: 30%;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    .form {
+        width: 92%;
+        margin: 30px 50px 20px 50px;
+
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .contact select {
+        font-size: 18px;
+    }
+
+    #first {
+        margin-left: 43%;
+    }
+
+}
