@@ -12,34 +12,48 @@
 <body>
     <h1>Pharmacy- Lab Test Form</h1>
 
-    <form action="#">
-        <div class="form">
+    <div class="form">
+        <form action="#">
             <img src="Lab-Test/lab-test.jpg" alt="Lab-Test">
             <br>
-
             <p>1. Contact Details</p>
-            <div class="contact">
-                <input type="text" title="F_Name" placeholder="Full Name" required>
-                <hr><br>
-                <input type="number" title="P_Id" placeholder="Patient Id">
-                <hr><br>
-                <input type="number" title="contact" placeholder="Contact Number" min="6666666666" max="9999999999"
-                    required>
-                <hr><br>
-                <input type="email" title="Mail" placeholder="E-mail Id">
-                <hr><br>
+            <div class="row">
+                <div class="column">
+                    <input type="text" title="F_Name" placeholder="Full Name" required>
+                </div>
+                <div class="column">
+                    <input type="number" title="P_Id" placeholder="Patient Id">
+                </div>
             </div>
+            <div class="row">
+                <div class="column">
+                    <input type="number" title="contact" placeholder="Contact Number" min="6666666666" max="9999999999"
+                        required>
+                </div>
+                <div class="column">
+                    <input type="email" title="Mail" placeholder="E-mail Id">
+                </div>
+            </div>
+            <br>
 
             <p>2. Address</p>
+            <div class="row">
+                <div class="column">
+                    <input type="text" title="H.No" placeholder="House Number" required>
+                </div>
+                <div class="column">
+                    <input type="text" title="Street" placeholder="Street" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <input type="text" title="Area" placeholder="Area">
+                </div>
+                <div class="column">
+                    <input type="text" title="District" placeholder="District" required>
+                </div>
+            </div>
             <div class="contact">
-                <input type="text" title="H.No" placeholder="House Number" required>
-                <hr><br>
-                <input type="text" title="Street" placeholder="Street" required>
-                <hr><br>
-                <input type="text" title="Area" placeholder="Area">
-                <hr><br>
-                <input type="text" title="District" placeholder="District" required>
-                <hr><br>
                 <label for="State">State:</label>
                 <select name="State" title="State">
                     <option value="Choose">Choose</option>
@@ -51,6 +65,7 @@
                     <option value="Kerala">Kerala</option>
                 </select>
             </div>
+
             <br>
 
             <p>3.Test Type</p>
@@ -86,15 +101,17 @@
             <p>5. Select your Comfortable Date and Time</p>
             <div class="contact">
                 <input type="date" title="Date" placeholder="Date" required>
-                <hr><br>
+                <br>
+
                 <input type="time" title="Time" placeholder="Time" required>
-                <hr><br>
+                <br>
             </div>
+            <br>
 
-        </div>
+    </div>
 
-        <button id="first" type="reset" value="Reset">Reset</button>
-        <button type="Submit" value="Submit">Submit</button>
+    <button id="first" type="reset" value="Reset">Reset</button>
+    <button id="second" type="Submit" value="Submit">Submit</button>
 
     </form>
 
