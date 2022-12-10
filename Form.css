@@ -160,7 +160,7 @@ button {
 
 .test_details label {
     line-height: 30px;
-    vertical-align: middle;
+    vertical-align: top;
     word-wrap: break-word;
     text-align: right;
     font-size: 18px;
